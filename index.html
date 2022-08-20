@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--Atributo Lang-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexboxgrid.css">
+    <title>Ejercicio Atributos comunes</title>
+</head>
+<body>
+    <!--Atrbuto ID-->
+    <header class="row" id="menu">
+        <div class="col-md-3">
+            <img src="images/logo.png" id="logo">
+        </div>
+        <div class="col-md-3">
+            <a id="incio">Inicio</a>
+        </div>
+        <div class="col-md-3">
+            <a id="quienes-somos">Quienes Somos</a>
+        </div>
+        <div class="col-md-3">
+            <a id="contacto">Contactenos</a>
+        </div>
+    </header>
+
+    <!--QUIENES SOMOS-->
+
+    <section class="row">
+       <div class="col-md-12">
+            <img src="images/playa.jpg" style="width: 100%; "> <!--Atributo Style-->
+       </div>
+    </section>
+    <section class="row">
+        <div class="col-md-6">
+            <!--Atrbuto translate-->
+            <h1>Media Producer <span translate="no"> Michel Yazo</span>
+            </h1>
+            <!--Atributo dir-->
+            <p>Esto es un ejemplo de texto con direccionalidad de izquierda a derecha.</p>
+            <p dir="rtl">Esto es un ejemplo de texto con direccionalidad de derecha a izquierda.</p>
+        </div>
+        <div class="col-md-6">
+            <!--Atrbuto title--> <!--Atributo class-->
+            <img src="images/alex.jpg" class="foto" title="El se llama Alex es mi gato">
+        </div>
+    </section>
+
+    <!--FORMULARIO-->
+
+    <form class="row">
+            <div class="col-md-3">
+                <input name="Nombre" accesskey="I" placeholder="NOMBRE (Option+I)"><!--Atributo Accesskey-->
+            </div>
+            <div class="col-md-3">
+                <input type="email" accesskey="P" placeholder="MAIL (Option+P)"><!--Atributo Accesskey-->
+            </div>
+            <div class="col-md-3">
+                <input type="tel" accesskey="T" placeholder="CELULAR (OPTION+T"><!--Atributo Accesskey-->
+            </div>
+            <div class="col-md-3">
+                <button accesskey="E" > Enviar Option+E</button>
+            </div>
+    </form>
+
+</body>
+</html>
